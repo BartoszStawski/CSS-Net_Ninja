@@ -1,7 +1,11 @@
-li:nth-child(1), li:nth-child(7){
+a{
+    color: crimson;
+    text-decoration: none;
     font-weight: bold;
 }
 
-li:nth-child(3n+1){
-    color: green;
+a:hover{
+    color: darkmagenta;
+    text-decoration: underline;
+    background-color: aquamarine;
 }
