@@ -1,6 +1,7 @@
-p, span, a, li {
-    color: red;
-    font-size: 14px;
+article p:first-child{
     font-weight: bold;
-    font-family: Arial;
+}
+
+article p:last-child{
+    color: red;
 }
